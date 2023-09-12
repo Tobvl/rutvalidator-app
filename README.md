@@ -1,9 +1,24 @@
-# React + Vite
+# RutValidator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Static Badge](https://img.shields.io/badge/learning-project)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"Simple input where you can validate any Chilean DNI (RUT)" 
+## What is this?
+RutValidator is a simple web app made with React that allows you to introduce any DNI (Chilean RUT) on a input and it will tell you if it's valid or not at real time.
+
+## Install
+** I used [Yarn](https://github.com/yarnpkg/berry) & [Bun](https://github.com/oven-sh/bun/) to develop this app
+```bash
+bun install                     # You can use npm, yarn to install dependencies
+```
+
+## Run
+
+```bash
+bun run dev                     # You can use npm, yarn to install dependencies
+```
+
+## Build
+```bash
+bunx --bun vite build           # Same as above
+```
